@@ -283,3 +283,282 @@ main {
     margin: 993px 1094px -335px -460px;
 
 }
+
+#preset {
+    width: 1440px;
+    height: 890px;
+    background: rgb(244, 243, 240);
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+#preset .content{
+    width: 1200px;
+    height: 690.44px;
+    /* border: 2px solid black; */
+    margin: 100.47px 120px 99.09px 120px;
+}
+
+.preset-text{
+    width: 600px;
+    height: 159px;
+    margin: 0 300px 39.53px 300px;
+    /* border: 2px solid black; */
+
+}
+
+.zigzag2{
+    margin: 0.47px 220px 15px;
+}
+
+.preset-text h1{
+    margin-left: 212px;
+    margin-bottom: 11px;
+    color: rgb(219, 52, 59);
+    font-family: Source Serif Pro;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+}
+
+.preset-text p{
+    margin-left: 5px;
+    color: rgb(41, 44, 50);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+}
+.preset-cards {
+    width: 1168px;
+    height: 438.44px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 16px;
+    margin-bottom: 29px;
+    margin-top: 40px;
+
+}
+
+.preset-cards .card2{
+    width: 379px;
+    height: 438px;
+    border-radius: 16px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+.preset-cards .card2 img{
+    width: 379px;
+    height: 252px;
+    border-radius: 0%;
+    /* border: 2px dashed grey; */
+}
+
+.preset-cards .card2 h2{
+    color: rgb(58, 95, 86);
+    font-family: Source Serif Pro;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    margin: 30px 63.66px 6px 30px;
+}
+
+.preset-cards .card2 p{
+    color: rgb(58, 95, 86);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    margin-left: 30px;
+    margin-right: 31.66px;
+}
+
+
+#preset a{
+    color: rgb(58, 95, 86);
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23.8px;
+    margin-left: 540px;
+    margin-right: 564px;
+    text-decoration-line: none;
+}
+
+#preset .bottom3{
+    background: radial-gradient(50.00% 50.00% at 50% 50%,rgba(219, 52, 59, 0.3),rgba(219, 52, 59, 0) 100%);
+    position: absolute;
+    width: 516px;
+    height: 501px;
+    margin: 587px -213px -198px 1137px;
+
+}
+
+#work{
+    width: 1440px;
+    height: 459px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+
+}
+
+#work .content{
+    width: 800px;
+    height: 259px;
+    border-radius: 16px;
+    background: rgb(244, 243, 240);
+    margin: 100.09px 320px 99.91px;
+    display: flex;
+    flex-direction: row;
+}
+
+#work .content p{
+    color: rgb(41, 44, 50);
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.6px;
+    margin: 80px 202px 78px 80px;
+    width: 313px;
+    height: 101px;
+}
+
+#work .content button {
+    border-radius: 6px;
+    background: rgb(58, 95, 86);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 125px;
+    height: 58px;
+    padding: 15px 25px;
+    margin: 100px 80px 101px 0;
+}
+
+#work .content button:hover {
+    cursor: pointer;
+    border: 2px solid rgb(58, 95, 86);
+    background-color: rgb(244, 243, 240);
+    color: rgb(58, 95, 86);
+}
+
+#work .bottom4{
+    background: radial-gradient(50.00% 50.00% at 50% 50%,rgba(184, 125, 88, 0.35),rgba(184, 125, 88, 0) 100%);
+    position: absolute;
+    width: 855px;
+    height: 774px;
+    margin: 159.09px 685px -474.09px -100px;
+
+}
+
+#black{
+    width: 1440px;
+    background: rgb(41, 44, 50);
+
+}
+
+#black .content{
+    width: 1168px;
+    margin: 99.91px 136px 100.59px;
+}
+
+#black .content .logo{
+    margin: 0 504px 75px;
+
+}
+
+#black .clmn{
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+}
+
+#black h3{
+    color: rgb(184, 125, 88);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#black a{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-decoration: none;
+}
+
+#black p{
+    color: rgb(250, 250, 252);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+#black form{
+    position: relative;
+    width: 458px;
+    margin-top: 8px;
+}
+
+#black .big{
+    width: 458px;
+    height: 53px;
+    box-sizing: border-box;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 8px;
+    background: rgb(249, 250, 251);
+    color: rgb(171, 171, 171);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    padding: 14px 0px 16px 25px;
+}
+
+#black .small{
+    width: 71px;
+    height: 39px;
+    border-radius: 10px;
+    background: rgb(41, 44, 50);
+    color: rgb(250, 250, 252);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    padding: 7px 10px 9px;
+    cursor: pointer;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+
+}
+
+.columns{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+}
+
+.infa{
+    grid-column: span 4;
+    margin-top: 27px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.icons{
+    margin-left: 517px;
+}
